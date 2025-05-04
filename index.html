@@ -66,42 +66,9 @@
 </div>
 </div>
 
+
+
+
   
-  
-  
-  
-  
-  <script>
-  function closeAllDropdowns() {
-    document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('show'));
-  }
-
-  function toggleDropdown(id) {
-    const target = document.getElementById(id);
-    const isVisible = target.classList.contains('show');
-    closeAllDropdowns();
-    if (!isVisible) {
-      target.classList.add('show');
-    }
-  }
-
-  document.addEventListener('click', function(e) {
-    if (!e.target.closest('.nav-item')) {
-      closeAllDropdowns();
-    }
-  });
-</script>
-
-<div class="blogsection">
-  <div class="container">
-<script type="text/javascript" src="https://www.protezionecivile.fvg.it/widgets/pcrfvgit_alert.js"></script><div class="pcrfvgit_alert_widget" data-istatcode="93022"></div>
-
-
-
-
-
-</div>
-</div>
-</div>
 </body>
 </html>
